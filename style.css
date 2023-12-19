@@ -1,6 +1,12 @@
 
+@font-face {
+  font-family:"ibm9x16";
+  src:url("img/WebPlus_IBM_VGA_9x16.woff");
+}
+
 html {
   background-color: #111111;
+  font-family: "ibm9x16", serif;
   color: grey;
   font-size: 1em;
   line-height: 1.4;
