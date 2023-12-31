@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af909b4f-14ac-4a56-bde6-fb4a37241439" name="Changes" comment="font updated" />
+    <list default="true" id="af909b4f-14ac-4a56-bde6-fb4a37241439" name="Changes" comment="Css fixed?">
+      <change afterPath="$PROJECT_DIR$/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commissions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/exepixelperfect.medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nihonium113.regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rubber-biscuit.bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sf-cartoonist-hand.bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sf-cartoonist-hand.italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sf-cartoonist-hand.regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/stone-era-pixels.regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/links.html" beforeDir="false" afterPath="$PROJECT_DIR$/links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,24 +45,37 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Zc7b3GfjA6Asx74EVhnyk8vBDz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20231219_0001",
+    "com.google.cloudcode.ide_session_index": "20231231_0000",
     "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +86,10 @@
       <updated>1702709581743</updated>
       <workItem from="1702709582834" duration="21000" />
       <workItem from="1702976577004" duration="28000" />
-      <workItem from="1702976618168" duration="681000" />
+      <workItem from="1702976618168" duration="2263000" />
+      <workItem from="1703067535017" duration="27000" />
+      <workItem from="1703235147517" duration="707000" />
+      <workItem from="1704021107275" duration="24934000" />
     </task>
     <task id="LOCAL-00001" summary="font updated">
       <option name="closed" value="true" />
@@ -55,14 +99,24 @@
       <option name="project" value="LOCAL" />
       <updated>1702976980547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Css fixed?">
+      <option name="closed" value="true" />
+      <created>1702977653080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702977653080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="font updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="font updated" />
+    <MESSAGE value="Css fixed?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css fixed?" />
   </component>
 </project>

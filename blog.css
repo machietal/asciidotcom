@@ -1,0 +1,63 @@
+@font-face {
+    font-family:'rubber';
+    src:url('img/rubber-biscuit.bold.ttf');
+}
+@font-face {
+    font-family:'ibm9x16';
+    src:url('img/WebPlus_IBM_VGA_9x16.woff');
+}
+@font-face {
+    font-family:'exe';
+    src:url('img/exepixelperfect.medium.ttf');}
+
+*{
+    font-family: "exe",sans-serif;
+    font-size: 18pt;
+    background-color: #111111;
+    color: grey;
+}
+
+h1,h2,h3{
+    font-family: 'rubber',sans-serif;
+    color: whitesmoke;
+}
+h1{
+
+}
+h2{
+    font-size: 36pt;
+    line-height: 1em;
+    margin:10px;
+}
+h3{
+    font-family: "ibm9x16",sans-serif;
+}
+hl{
+    color:white;
+}
+/*----------------css for tag system-----------------*/
+/*---------------------------------------------------*/
+
+#tags {
+    list-style-type: none;
+    display: flex;
+    font-family: "exe",sans-serif;
+}
+#tags li{
+    margin:0 2px 0 2px;
+    padding: 0 4px 0 4px;
+    /*border-radius: 5px;*/
+    font-family: "exe",sans-serif;
+}
+/* for the tags themselves. (update when a new tag is made)*/
+#text{
+    background-color: #ffc342;
+    color: #351625;
+}
+#misc{
+    background-color: #15e4cc;
+    color: #02081d;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
