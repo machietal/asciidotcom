@@ -95,7 +95,7 @@ main{
   display:flex;
   flex-direction: column;
   justify-content: center;
-
+  position: relative;
   width:20vw;
   background-color: #000000aa;
   background-image: url("img/demaged-paper-2024-01-05-19-04-16-utc/1.png");
@@ -127,6 +127,12 @@ main{
   position:absolute;
   bottom:-5em;
   left:-3.5em;
+}
+#stickers{
+  width:15em;
+  position:absolute;
+  bottom:5em;
+  left:-6.5em;
 }
 #upperjaw{
   width:50em;
@@ -186,6 +192,20 @@ main{
   right:0;
   width:auto;
 }
+#tape1{
+  transform: rotate(50deg);
+  width:8em;
+  right:-3em;
+  top:0;
+  position: absolute;
+}
+#tape2{
+  transform: rotate(40deg);
+  width:8em;
+  left:-3em;
+  bottom:0;
+  position: absolute;
+}
 .Sidebar strong{
   font-family: cutout, sans-serif;
   color:var(--red);
@@ -218,7 +238,12 @@ body * {
   width:80vw;
   height:60vh;
 }
-
+#eyes1 {
+  position: absolute;
+  width:auto;
+  right:-2em;
+  bottom: -1em;
+}
 a,button{
   all:unset;
   cursor: url("img/cursor2.png"), auto;
