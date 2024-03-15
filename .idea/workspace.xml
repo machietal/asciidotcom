@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af909b4f-14ac-4a56-bde6-fb4a37241439" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/img/215000e.regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bunting1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bunting2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/demaged-paper-2024-01-05-19-04-16-utc/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dotcom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mustasurma.regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/poster.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/scrumple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lowerjaw.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/__MACOSX/._7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/teethies.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/upperjaw.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogView.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/stone-era-pixels.regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/blogposts/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/blogposts/blog.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/calendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +94,7 @@
       <workItem from="1704146045483" duration="2070000" />
       <workItem from="1704342625660" duration="627000" />
       <workItem from="1704721530638" duration="20000" />
-      <workItem from="1710510960918" duration="8879000" />
+      <workItem from="1710510960918" duration="11820000" />
     </task>
     <task id="LOCAL-00001" summary="font updated">
       <option name="closed" value="true" />
@@ -132,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704058445558</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <option name="closed" value="true" />
+      <created>1710522586570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710522586570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

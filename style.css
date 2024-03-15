@@ -75,20 +75,64 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#bigwrap{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  flex-direction: row;
+  gap:2em;
+}
 
+main{
+  margin:1em;
+  font-family: cutout, sans-serif;
+  color:var(--red);
+  font-size: 2em;
+}
 .Sidebar{
 
-  position:absolute;
+
   display:flex;
   flex-direction: column;
   justify-content: center;
-  right:5em;
+
   width:20vw;
-  background-color: #00000066;
+  background-color: #000000aa;
   background-image: url("img/demaged-paper-2024-01-05-19-04-16-utc/1.png");
   color:var( --gold);
   text-align: center;
   border: var(--white) 3px solid;
+}
+#teethies{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:auto;
+  filter: blur(2px);
+}
+.main{
+  display:flex;
+  width:40em;
+  height:70vh;
+  position: relative;
+  background-color: var(--dBlue);
+  background-image: url("img/old-paper-textures-2024-01-05-19-12-17-utc/7.jpg");
+  background-blend-mode: multiply;
+  padding:2em;
+  border: var(--red) 4px solid;
+
+}
+#lowerjaw{
+  width:50em;
+  position:absolute;
+  bottom:-5em;
+  left:-3.5em;
+}
+#upperjaw{
+  width:50em;
+  position:absolute;
+  top:-5em;
+  left:-3.5em;
 }
 
 /*.halftone {*/
