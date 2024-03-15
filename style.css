@@ -3,13 +3,28 @@
   font-family:"ibm9x16";
   src:url("img/WebPlus_IBM_VGA_9x16.woff");
 }
+@font-face {
+  font-family:"cutout";
+  src:url("img/215000e.regular.ttf");
+}
+
+:root{
+  --red: #EF0220;
+  --gold: #E4960E;
+  --cyan: #218f84;
+  --dBlue:#231578;
+  --black:black;
+  --white:#E0DEDE;
+}
 
 html {
-  background-color: #111111;
+  background-color: white;
   font-family: "ibm9x16", serif;
   color: grey;
   font-size: 1em;
   line-height: 1.4;
+  background-image: url("img/scrumple.jpg");
+  background-blend-mode: exclusion;
 }
 
 ::-moz-selection {
@@ -61,7 +76,80 @@ textarea {
    ========================================================================== */
 
 
+.Sidebar{
 
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  right:5em;
+  width:20vw;
+  background-color: #00000066;
+  background-image: url("img/demaged-paper-2024-01-05-19-04-16-utc/1.png");
+  color:var( --gold);
+  text-align: center;
+  border: var(--white) 3px solid;
+}
+
+/*.halftone {*/
+/*  z-index: -1;*/
+/*  --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));*/
+/*  --stop1: 0.06rem;*/
+/*  --stop2: 0.65rem;*/
+/*  --invert: 0;*/
+/*  --dotColor: black;*/
+/*  --bgColor: white;*/
+/*  --bgSize: 1.4rem;*/
+/*  --bgPosition: calc(var(--bgSize) / 2);*/
+/*  --dottedBackground: radial-gradient(circle at center, var(--dotColor) var(--stop1), transparent var(--stop2)), radial-gradient(circle at center, var(--dotColor) var(--stop1), transparent var(--stop2));*/
+/* height: 100%;*/
+/*  width: inherit;*/
+/*  position: absolute;*/
+/*  background: var(--bgColor);*/
+/*  filter: contrast(50) invert(var(--invert, 0));*/
+/*  mix-blend-mode: screen;*/
+
+/*}*/
+
+/*.halftone::after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  inset: 0;*/
+/*  background-image: var(--dottedBackground);*/
+/*  background-size: var(--bgSize, 1rem) var(--bgSize, 1rem);*/
+/*  background-repeat: round;*/
+/*  background-position: 0 0, var(--bgPosition) var(--bgPosition);*/
+/*  mask-image: var(--mask);*/
+/*}*/
+
+#bunting1 {
+  position: fixed;
+  top:0;
+  left:0;
+  width:auto;
+}
+#dotcom {
+  position: fixed;
+  z-index: 999;
+  margin:auto;
+  filter: drop-shadow(5px 5px 15px black) drop-shadow(5px 5px 15px black);
+  top:-30px;
+  width:auto;
+}
+#bunting2 {
+  position: fixed;
+  top:0;
+  right:0;
+  width:auto;
+}
+.Sidebar strong{
+  font-family: cutout, sans-serif;
+  color:var(--red);
+  font-size: 3em;
+}
+img{
+  width:inherit;
+}
 h1 {
   font-size:3em;
   line-height: 0.8em;

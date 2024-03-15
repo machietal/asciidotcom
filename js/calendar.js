@@ -12,9 +12,37 @@ const sel = 'calendar year month:nth-of-type('+todayDate[1] +') [thisDate="'+tod
 const todayElement= document.querySelector(sel);
 todayElement.classList.add("activeDay")
 
+const blogPosts = [];
+
+// function to get json blogs
+function jsonGet() {
+    fetch("/js/blogposts/blog.json")
+        .then((res) => {
+            return res.json();
+        })
+        .then((data) => {
+            blogPosts.push(data)
+
+            highlight();
+            previews();
+        });
+}
 
 
+// function to highlight days with valid blog posts
+function highlight(){
+    blogPosts[0].forEach(function(item){
+        let blogday = 'calendar year month:nth-of-type('+ item.date[1]+') [thisDate="'+ item.date[0]+'"]';
+        let blogdayEl= document.querySelector(blogday);
+        blogdayEl.classList.add("blogDay")
+    })
 
-let blogday = 'calendar year month:nth-of-type(1) [thisDate="1"]';
-const blogdayEl= document.querySelector(blogday);
-blogdayEl.classList.add("blogDay")
+}
+
+// function to post the previews
+function previews(){
+    for (let i = 0; i < 3; i++) {
+        }
+}
+
+jsonGet();
