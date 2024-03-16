@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af909b4f-14ac-4a56-bde6-fb4a37241439" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/img/Main/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Main/06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Main/07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Main/08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Main/09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Main/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/eyes1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/stickrs.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/10-sticky-notes-overlay-hq-2023-11-27-04-55-34-utc(2)/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chawp.regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/old-paper-textures-2024-01-05-19-12-17-utc/6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -87,7 +84,7 @@
       <workItem from="1704146045483" duration="2070000" />
       <workItem from="1704342625660" duration="627000" />
       <workItem from="1704721530638" duration="20000" />
-      <workItem from="1710510960918" duration="14319000" />
+      <workItem from="1710510960918" duration="17476000" />
     </task>
     <task id="LOCAL-00001" summary="font updated">
       <option name="closed" value="true" />
@@ -137,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710526401662</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <option name="closed" value="true" />
+      <created>1710537453292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710537453293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

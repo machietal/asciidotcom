@@ -7,6 +7,10 @@
   font-family:"cutout";
   src:url("img/215000e.regular.ttf");
 }
+@font-face {
+  font-family:"chawp";
+  src:url("img/chawp.regular.otf");
+}
 
 :root{
   --red: #EF0220;
@@ -89,6 +93,11 @@ main{
   color:var(--red);
   font-size: 2em;
 }
+main p{
+  font-family: "ibm9x16", serif;
+  font-size: 16pt;
+  color: var(--cyan);
+}
 .Sidebar{
 
 
@@ -107,6 +116,7 @@ main{
   position:absolute;
   bottom:0;
   left:0;
+  pointer-events: none;
   width:auto;
   filter: blur(2px);
 }
@@ -127,6 +137,7 @@ main{
   position:absolute;
   bottom:-5em;
   left:-3.5em;
+  pointer-events: none;
 }
 #stickers{
   width:15em;
@@ -134,10 +145,67 @@ main{
   bottom:5em;
   left:-6.5em;
 }
+#sticky1{
+  width:22em;
+  filter: brightness(75%)drop-shadow(10px 10px 15px black) ;
+  left:0;margin-top:-15em;
+  transform: rotate(-12deg);
+  position:absolute;
+  transform-origin: top right;
+}
+#sticky1:hover{
+  animation: swing 1s forwards;
+}
+
+#sticky2:hover{
+  animation: swing2 1s forwards;
+}
+@keyframes swing {
+  0%{
+    transform: rotate(-15deg);
+  }
+  20%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(-20deg);
+  }
+}
+@keyframes swing2 {
+  0%{
+    transform: rotate(15deg);
+  }
+  20%{
+    transform: rotate(20deg);
+  }
+  100%{
+    transform: rotate(20deg);
+  }
+}
+
+
+.imgtext{
+  position: absolute;
+  top: 50%;
+  color:maroon;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-family: chawp,sans-serif;
+  font-size: 2em;
+}
+#sticky2{
+  width:24em;
+  right:-5em;
+  filter: brightness(75%) drop-shadow(10px 10px 15px black) ;
+  transform: rotate(12deg);
+  position:absolute;
+  transform-origin: top left;
+}
 #upperjaw{
   width:50em;
   position:absolute;
   top:-5em;
+  pointer-events: none;
   left:-3.5em;
 }
 
@@ -176,12 +244,14 @@ main{
   position: fixed;
   top:0;
   left:0;
+  pointer-events: none;
   width:auto;
 }
 #dotcom {
   position: fixed;
   z-index: 999;
   margin:auto;
+  pointer-events: none;
   filter: drop-shadow(5px 5px 15px black) drop-shadow(5px 5px 15px black);
   top:-30px;
   width:auto;
@@ -190,12 +260,14 @@ main{
   position: fixed;
   top:0;
   right:0;
+  pointer-events: none;
   width:auto;
 }
 #tape1{
   transform: rotate(50deg);
   width:8em;
   right:-3em;
+  pointer-events: none;
   top:0;
   position: absolute;
 }
@@ -204,6 +276,7 @@ main{
   width:8em;
   left:-3em;
   bottom:0;
+  pointer-events: none;
   position: absolute;
 }
 .Sidebar strong{
@@ -242,6 +315,7 @@ body * {
   position: absolute;
   width:auto;
   right:-2em;
+  pointer-events: none;
   bottom: -1em;
 }
 a,button{
